@@ -46,6 +46,4 @@ Collate:
     'tntTracks-compositeTrack.R'
     'tntTracks-constructors.R'
     'trackWidget.R'
-    'zzz.R'
 RoxygenNote: 7.0.2
-PackageStatus: Deprecated
