@@ -78,7 +78,9 @@ merge_tracklist <- function (tracklist) {
         heights     <- unname(unlist(lapply(tracklist, trackSpec, which = "height")))
         backgrounds <- unname(unlist(lapply(tracklist, trackSpec, which = "background")))
         
-        stopifnot(is.atomic(labels), is.atomic(heights), is.atomic(backgrounds))
+        stopifnot(is.atomic(labels) || is.null(labels),
+                  is.atomic(heights) || is.null(heights),
+                  is.atomic(backgrounds) || is.null(backgrounds))
         
         f <- function(x, w = c("label", "height", "background")) {
             w <- match.arg(w)
