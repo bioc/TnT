@@ -1,6 +1,6 @@
 Package: TnT
 Title: Interactive Visualization for Genomic Features
-Version: 1.26.1
+Version: 1.26.2
 Authors@R: c(person("Jialin", "Ma", email="marlin-@gmx.cn", role = c("cre", "aut")),
             person("Miguel", "Pignatelli", email="emepyc@gmail.com", role=c("aut")),
             person("Toby", "Hocking", email="toby.hocking@r-project.org", role = c("aut")))
@@ -46,6 +46,5 @@ Collate:
     'tntTracks-compositeTrack.R'
     'tntTracks-constructors.R'
     'trackWidget.R'
-    'zzz.R'
 RoxygenNote: 7.0.2
 PackageStatus: Deprecated
